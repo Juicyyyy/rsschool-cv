@@ -1,1 +1,0 @@
-https://Juicyyyy.github.io/rsschool-cv/cv
