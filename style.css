@@ -1,0 +1,19 @@
+html{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 0.25em;
+}
+h2 {
+    color: #8B4513;
+    font-size:1em;
+    margin-top:0;
+    margin-bottom: 1em;
+}
+
+section {
+    margin-bottom: 3em;
+}
