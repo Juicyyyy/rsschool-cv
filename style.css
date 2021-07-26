@@ -16,6 +16,12 @@ h2 {
     font-size:24px; 
 }
 
+hr {
+    width: 500; 
+    size: 10; 
+    color: #333333;
+}
+
 a {
     color:#333333;
 }
@@ -31,19 +37,8 @@ img.foto {
     padding: 10px 100px 10px 100px;
     margin: 0 200px 0 200px;
 }
-.my {
-
-
-}
-.contact {
-
-}
 .info {
     padding: 0 20px 0 20px;
-
-}
-.sckills {
-
 
 }
 .code {
