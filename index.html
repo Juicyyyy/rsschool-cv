@@ -6,97 +6,149 @@
     <meta name="viewport" content="width=device-width">
     <title>CV Julia Diniullova</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     <div class="cv">
     <header>
+        <div class="header_wrapper">
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li class="header_item">
+                        <a href="#contact" class="header_link">Contact</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#profile" class="header_link">Profile</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#scills" class="header_link">Techical scills</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#project" class="header_link">Project</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#code" class="header_link">Sample code</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#work" class="header_link">Work experience</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#education" class="header_link">Education</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#english" class="header_link">English</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
             <figure>
-         <img class="foto" src="profile.png" width="200" height="200" alt="my foto">
+         <img class="foto" src="profile.png" width="225" height="225" alt="my foto">
             </figure>
         <h1>Julia Diniullova</h1>
     </header>
 
 <main>
     <section>
-            <div class="contact">
+            <div class="contact" id = "contact">
             <h2>Contact</h2>
         <ul>
-          <li>Phone: +79178232099</li>
-          <li>E-mail: <a href="diniullova2011@yandex.ru">diniullova2011@yandex.ru</a></li>
-          <li>GitHub: <a href="https://github.com/Juicyyyy">https://github.com/Juicyyyy</a></li>
+          <li class = "item"><a><img class="phone" src="/phone-call.svg" width="100" height="50" alt="Phone">+79178232099</a></li>
+          <li class = "item"><a><img class="mail" src="/email.svg" width="100" height="50" alt="Mail">diniullova2011@yandex.ru</a></li>
+          <li class = "item"><a href="https://github.com/Juicyyyy" target="_blank"><img class="github" src="/github.svg" width="100" height="50" alt="GitHub">Juicyyyy</a></li>
+          <li class = "item"><a href="https://t.me/diniullova" target="_blank"><img class="telegram" src="/telegram.svg" width="100" height="50" alt="Telegram">@diniullova</a></li>
         </ul>
     </div>
     </section>
 </main>
     <section>
-            <div class="info">
+            <div class="info" id = "profile">
             <h2>Profile</h2>
             <p>My goal is to develop, not to stand still, but to find something new and interesting. 
-            My greatest strength is hard work. I also have creative skills, diligence and the ability to effectively plan my time. 
+            I also have creative skills, diligence and the ability to effectively plan my time. 
             I believe that in order to comfortably do what you love, you first need to invest a lot of time and effort into it.</p>
             </div>
     </section>
 
     <section>
-            <div class ="sckills">
+            <div class ="sckills" id = "sckills">
             <h2>Technical scills</h2>
     <ul>
-        <li>HTML, CSS</li>
-        <li>C++, Java, JavaScript, SQL</li>
-        <li>Visual Studio, Eclipse</li>
-        <li>Illustrator</li>
+        <li><span>HTML, CSS</span></li>
+        <li><span>C++, Java, JavaScript, SQL</span></li>
+        <li><span>Visual Studio, Eclipse</span></li>
+        <li><span>Illustrator, Figma</span></li>
     </ul>
             </div> 
     </section>
 
     <section>
-            <div class="code">
-            <h2>Sample code</h2>
-            <pre>
-            <code>
-            &lt;!DOCTYPE html&gt;
-            &lt;html lang="ru"&gt;
-            &lt;head&gt;
-                &lt;meta charset="UTF-8"&gt;
-                &lt;title&gt;Hi all&lt;/title&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-                &lt;h1&gt;My&lt;/h1&gt;
-                &lt;h2&gt;name&lt;/h2&gt;
-                &lt;p&gt;is Julia&lt;/p&gt;
-            &lt;/body&gt;
-            &lt;/html&gt;
-            </code>
-            </pre>
+        <div class ="project" id = "project">
+        <h2>Project</h2>
+         <a class="gradient" href="https://compassionate-mirzakhani-5f9653.netlify.app/" target="_blank"><img class="img_project" src="/project.png" width="500" height="288" alt="Project"></a>
+            <div class="project_content">
+                <p>HTML, CSS</p>
+                <h3>Museum</h3>
+                <p>Museum website where you can watch small video reviews about it, buy tickets and find other information.</p>
+            </div>
+           
+        </div> 
+    </section>
+
+    <section>
+            <div class="code" id = "code">
+                <h2>Sample code</h2>
+                <pre>
+                    <code class="html">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang="ru"&gt;
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;title&gt;Hi all&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;h1&gt;My&lt;/h1&gt;
+                            &lt;h2&gt;name&lt;/h2&gt;
+                            &lt;p&gt;is Julia&lt;/p&gt;
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </pre>
             </div>
     </section>
 
     <section>
-            <div class="work">
+            <div class="work" id = "work">
             <h2>Work experience</h2>
             <p>No experience</p>
             </div>
     </section>
 
     <section>
-            <div class="education">
+            <div class="education" id = "education">
             <h2>Education</h2>
-            <p>Third-year student of applied mathematics and computer science, Samara University</p>
+            <p>A fourth-year student of the Faculty of Applied Mathematics and Informatics, Samara University.</p>
             </div>
     </section>
 
     <section>
-            <div class="english">
+            <div class="english" id = "english">
             <h2>English</h2>
-            <p>Language level: A1</p>
+            <p>Language level: A2</p>
             </div>
     </section>
     </div>
 
 <footer>
-    <p><a href="https://github.com/Juicyyyy">https://github.com/Juicyyyy</a>  2021</p>
-    <img class="foto" src="https://rs.school/images/rs_school_js.svg" width="100" height="50" alt="rs_school">
-    <a href="https://rs.school/js/">https://rs.school/js/</a>
+    <div class="footer_wrapper">
+        <ul class = "footer_list">
+            <li class = "item_list">© 2021 by Julia Diniullova</li>
+            <li class = "item_list"><a href="https://github.com/Juicyyyy" target="_blank"><img class="github" src="/github.svg" width="100" height="50" alt="GitHub"></a></li>
+            <li class = "item_list"><a href="https://rs.school/js/" target="_blank"><img class="foto" src="https://rs.school/images/rs_school_js.svg" width="100" height="50" alt="rs_school"></a></li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
